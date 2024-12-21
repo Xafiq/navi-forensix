@@ -7,6 +7,5 @@ aliases:
   - fx
 entry_point: forensix
 dependencies: chip-requirements.txt
-author: Your Name
-repo: https://github.com/Xafiq/navi-forensix
+author: Xafiq
 license: MIT
