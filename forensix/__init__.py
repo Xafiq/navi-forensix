@@ -24,13 +24,11 @@ params = {
 }
 help_params = ['-help', '-h']
 
-
 def print_help():
     print("ForensiX Command Help")
     print("-" * 40)
     for param, description in params.items():
         print(f"{param:<15} - {description}")
-
 
 def run(arguments=None):
     navi = navi_internal.navi_instance
@@ -64,4 +62,3 @@ def run(arguments=None):
             full_analysis.run()
         case _:
             navi.print_message(f"Unknown command: {command}")
-
