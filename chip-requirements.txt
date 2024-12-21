@@ -1,0 +1,4 @@
+navi_internal
+spacy
+pandas
+matplotlib
