@@ -1,0 +1,12 @@
+name: ForensiX
+version: 1.0.0
+description: A versatile chip for digital forensics tasks including evidence collection, analysis, and reporting.
+use: A powerful tool for forensics tasks.
+aliases:
+  - forensix
+  - fx
+entry_point: forensix
+dependencies: chip-requirements.txt
+author: Your Name
+repo: https://github.com/Xafiq/navi-forensix
+license: MIT
